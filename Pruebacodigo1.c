@@ -95,8 +95,8 @@ int main()
     const int MAX_PRODUCTOS = 100;
     struct Producto productos[MAX_PRODUCTOS];
     int numProductos = 0;
-
     int opcion;
+    //Aqui esta el menu de opciones del programa donde segun lo que se escoja, el progrmara realizara una funcion
 do
 {
         printf("\nMenu de opciones:\n");
@@ -143,7 +143,7 @@ do
             break;
 
         case 3:
-            // Egreso de producto
+            // Egreso de producto, pide al usuario agregar lo que se descontara de los productos ya ingresados 
             if (numProductos > 0)
             {
                 int indice;
